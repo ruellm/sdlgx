@@ -1,0 +1,25 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/0/24;
+
+cmd_dialogline	0/0/0/Tom/0.5/I don't think he did it. There's just something a bit off here.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/When you told me, I need to understand people to solve cases.\n It just hit me.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/His motive, his reasoning doesn't sit well.;
+cmd_dialogline	0/0/0/Tom/0.5/ Firstly, the case was that he\n failed his grade that's why he poisoned the teacher...;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/I don't think that anyone would do that. I mean, even if he fails this\n particular test, he's smart enough to bring it back to average.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/And then this new information comes out that it could've been rectified\n when he talked to the teacher. It makes the case against him a lot weaker,\n don't you think?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/First off, there's no proof that it could be poison. I don't think we have\n anything that strong that can kill instantly.;
+cmd_wait;
+
+cmd_event	6;
+
+end_script;

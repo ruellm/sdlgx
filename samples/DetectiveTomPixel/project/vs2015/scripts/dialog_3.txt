@@ -1,0 +1,193 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/0/24;
+
+cmd_dialogline	1/0/0/Emma/0.5/Regardless....;
+cmd_pause_talk	3;
+cmd_dialogline	1/0/0/Emma/0.5/ I don't think what we have is enough. We can't really prove\n anything strong at this point.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/I can fix that.; 
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/How?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/Main character powers. Wait here.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/What the heck are you doing...;
+cmd_wait;
+
+cmd_fade	0/0;
+cmd_pause	5;
+cmd_fade	1/0;
+cmd_pause	3;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/Here we are. ;
+cmd_wait;
+
+cmd_setsprite	1/0/24;
+cmd_pause	0.5;
+cmd_setsprite	1/0/24;
+cmd_pause	0.5;
+cmd_dialogline	1/0/0/Emma/0.5/What just happened?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/I stole some things from the teacher's desk.;
+cmd_wait;
+
+cmd_setsprite	1/0/24;
+cmd_pause	0.5;
+cmd_setsprite	1/0/24;
+cmd_pause	0.5;
+cmd_dialogline	1/0/0/Emma/0.5/What? That's tampering with evidence, what the heck are you doing Tom!?;
+cmd_setsprite	1/0/24;
+cmd_setcharidle_idx	1/-1/24;
+cmd_pause_talk	0.5;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/....Just this once? At least after the editing team finds a reason why?;
+cmd_wait;
+
+cmd_setcharidle_idx	1/-1/24;
+cmd_dialogline	1/0/0/Emma/0.5/Whatever. What do you have?;
+cmd_wait;
+
+cmd_evidence	5;
+
+cmd_dialogline	0/0/0/Tom/0.5/This calling card over here, with some sort of code in the back.; 
+cmd_wait;
+
+cmd_evidence	6;
+
+cmd_dialogline	0/0/0/Tom/0.5/His organizer, with only one bookmark.; 
+cmd_wait;
+
+cmd_evidence	7;
+
+cmd_dialogline	0/0/0/Tom/0.5/What is this thing?;
+cmd_dialogline	0/0/0/Tom/0.5/ A formula?  HCN....;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/Hydrogen Cyanide...;
+cmd_dialogline	1/0/0/Emma/0.5/Oh boy. I think I may have an idea on what killed\n Mr. Ony.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/That's Cyanide...;
+cmd_dialogline	0/0/0/Tom/0.5/The thing in movies that spies put in their mouths,\n that kills them instantly?;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/More or less. Depending on the purity.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Soxhlet extraction with methanol....and reflux extraction in water with\n the... something something citric acid.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/-1/24;
+cmd_dialogline	0/0/0/Tom/0.5/What the heck am I reading?!;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/Seems to be a formula to creating HCN.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/You don't think someone was trying to produce cyanide in school?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/AND asked our teacher to help that person to create it...;
+cmd_wait;
+
+cmd_setsprite	0/0/24;
+cmd_pause	0.5;
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/How do you even create Cyanide. Do we even have anything to extract\n Cyanide from?;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/According to this paper, it's extracted from Apricots and peaches.;
+cmd_wait;
+
+cmd_event	8;
+
+cmd_fade	0/0/1;
+cmd_setcharcoord	1/200/188;
+cmd_pause	3;
+cmd_setsprite	1/0/24;
+cmd_setchar_invert	1/0;
+cmd_setsprite	0/0/24;
+cmd_setcharidle_idx	2/0/24;
+cmd_fade	1/0/1/2;
+cmd_pause	3;
+
+cmd_dialogline	0/0/0/Tom/0.5/!!;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/Oh my....;
+cmd_wait;
+
+cmd_setcharidle_idx	0/7/24;
+cmd_dialogline	0/0/0/Tom/0.5/Oh....My...;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/What are you looking at?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/HCN.......;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/What did I do;
+cmd_pause_talk	1;
+cmd_dialogline	2/0/0/Red/0.5/....Wait...Did you say;
+cmd_setsprite	2/0/24;
+cmd_pause_talk	0.5;
+cmd_dialogline	2/0/0/Red/0.5/.....HC--;
+cmd_wait;
+
+cmd_setcharidle_idx	2/0/24;
+cmd_dialogline	2/0/0/Red/0.5/It's not what it looks like....;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/Sounds like something a guilty person would say.; 
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/But...;
+cmd_pause_talk	0.5;
+cmd_dialogline	2/0/0/Red/0.5/I didn't..;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Wait- wait up!;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Let me think. Let me think...;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Could it really be Red? Do we even understand enough of this case to\n call it finished?;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/Alright, let's hear your thoughts Tom. I believe you have a clear idea now?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/No...Not really...;
+cmd_dialogline	0/0/0/Tom/0.5/But I don't think we have everything.\n Just give me a second.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/(Think Tom. Something's not really adding up. I think I should talk to Red.);
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/So, what is it that you want to talk about?;
+cmd_wait;
+
+cmd_setsprite	2/0/24;
+cmd_event	10;
+
+end_script;

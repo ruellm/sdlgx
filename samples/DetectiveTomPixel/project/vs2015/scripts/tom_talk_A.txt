@@ -1,0 +1,17 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/0/24;
+
+cmd_dialogline	0/0/0/Tom/0.5/I think he did it.;
+cmd_dialogline	0/0/0/Tom/0.5/ Everything points toward it. He got flustered when asked\n about if he was given a chance. It must be that.;
+
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/When else could he have administered the poison?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/When he stood next to the teacher of course. How else could anybody\n have gotten to Mr. Ony. He was the only one who was there.;
+cmd_wait;
+
+cmd_event	6;
+
+end_script;

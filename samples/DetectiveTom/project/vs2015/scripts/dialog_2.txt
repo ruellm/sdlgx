@@ -1,0 +1,110 @@
+cmd_setcharidle_idx	0/9/24;
+cmd_setcharidle_idx	1/10/24;
+cmd_setcharidle_idx	2/2/24;
+
+cmd_dialogline	0/10/0/Tom/0.5/Emma, let's show him your test results.;
+cmd_wait;
+
+cmd_dialogline	1/11/0/Emma/0.5/Of course it had to be mine, didn't it?  Too embarassed of yours?\n You failure of a human.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/-1/24;
+cmd_dialogline	0/10/0/Tom/0.5/I just...;
+cmd_dialogline	0/0/0/Tom/0.5/ Didn't study...hehe;
+cmd_wait;
+
+cmd_dialogline	0/13/0/Tom/0.5/But seriously though. Take a look at the difference.;
+cmd_wait;
+
+cmd_dialogline	1/15/0/Emma/0.5/...;
+cmd_wait;
+
+cmd_dialogline	2/2/0/Red/0.5/...;
+cmd_wait;
+
+cmd_dialogline	1/4/0/Emma/0.5/!!!;
+cmd_wait;
+
+cmd_setcharidle_idx	1/-1/24;
+cmd_dialogline	1/4/0/Emma/0.5/This is....;
+cmd_wait;
+
+cmd_setcharidle_idx	1/15/24;
+cmd_dialogline	1/16/0/Emma/0.5/The multiple choice questions are one number off. Which means,\n techinically you would have passed, if you aligned the answers correctly.;
+cmd_wait;
+
+
+cmd_dialogline	2/3/0/Red/0.5/Which is why I asked him for consideration.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/7/24;
+cmd_dialogline	0/8/0/Tom/0.5/Well...Did he?;
+cmd_wait;
+
+cmd_dialogline	2/2/0/Red/0.5/....;
+cmd_wait;
+
+cmd_dialogline	0/8/0/Tom/0.5/Did he?;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/....He...He did.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/12/24;
+cmd_dialogline	1/13/0/Emma/0.5/Oh, Mr. Monotone got a bit flustered there?;
+cmd_dialogline	1/11/0/Emma/0.5/ Really suspicious.;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/He did, except after the conversation....He collapsed in front of me.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/10/24;
+cmd_dialogline	1/11/0/Emma/0.5/I'm not buying it.;
+cmd_wait;
+
+cmd_dialogline	0/10/0/Tom/0.5/Hm, well we'll never know, because he collapsed.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/9/24;
+cmd_dialogline	0/8/0/Tom/0.5/Do we know what he was poisoned with?;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/Not yet. I think they have yet to establish what it was exactly.;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/I have to return to my seat now.;
+cmd_wait;
+
+cmd_fade	0/0/1/2;
+cmd_setcharcoord	1/1400/112;
+cmd_setcharidle_idx	0/9/24;
+cmd_setcharidle_idx	1/10/24;
+cmd_setchar_invert	1/1;
+cmd_pause	3;
+cmd_fade	1/0/1;
+cmd_pause	3;
+
+cmd_setcharidle_idx	1/15/24;
+cmd_dialogline	1/16/0/Emma/0.5/So, what do you think?;
+cmd_wait;
+
+cmd_dialogline	0/10/0/Tom/0.5/I can't get a read on him.;
+cmd_wait;
+
+cmd_dialogline	1/11/0/Emma/0.5/Yeah, same actually.;
+cmd_wait;
+
+cmd_dialogline	1/9/0/Emma/0.5/But you think you have a clear direction of where this is going?;
+cmd_wait;
+
+cmd_dialogline	0/10/0/Tom/0.5/Yeah.;
+cmd_wait;
+
+cmd_dialogline	0/10/0/Tom/0.5/I think he's;
+cmd_wait;
+
+cmd_setsprite	0/9/24;
+cmd_event	5;
+
+cmd_wait;
+end_script;

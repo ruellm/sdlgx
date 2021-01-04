@@ -1,0 +1,127 @@
+cmd_dialogline	-1/-1/0/???/0.5/The world isn't all black and white, Tom.;
+cmd_pause_talk	1;
+cmd_dialogline	-1/-1/0/???/0.5/You have to realize that there are\n people behind actions, and reasons why they do what they do;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Tom/0.5/So you're saying...;
+cmd_pause_talk	1;
+cmd_dialogline	-1/-1/0/Tom/0.5/ Not everyone is exactly good, or bad?;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/???/0.5/Not through their own eyes.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/???/0.5/Some of these people see their own neuroses as justifiable in their own\n perspective.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Tom/0.5/I don't know, Emma.;
+cmd_pause_talk	1;
+cmd_dialogline	-1/-1/0/Tom/0.5/ It's hard for me to understand people.\n I can fix problems without looking at underlying objectives.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Emma/0.5/Yes, you probably can. But you'll probably never solve it completely.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Emma/0.5/Even when you've gotten all the facts, you'll never learn to understand.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Tom/0.5/I see.;
+cmd_pause_talk	2;
+cmd_dialogline	-1/-1/0/Tom/0.5/ Just gotta ask though.;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Tom/0.5/But why are we having lunch while our teacher's murder is being\n investigated again?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/2/24;
+cmd_setsprite	0/0/24;
+cmd_setsprite	1/2/24;
+
+cmd_event	0;
+
+cmd_dialogline	1/3/0/Emma/0.5/Hey, Mr. Detective, can we go home yet?;
+cmd_wait;
+
+cmd_dialogline	-1/-1/0/Detective/0.5/Sorry, no can do missy. Everyone must remain on their seat until we figure\n this out.;
+cmd_wait;
+
+cmd_dialogline	1/2/0/Emma/0.5/That's why.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/2/24;
+cmd_dialogline	0/3/0/Tom/0.5/Doesn't really explain why you can stomach eating at this time.\n I can barely eat while there's someone dead around.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/1/0/Emma/0.5/Well then...;
+cmd_pause_talk	1;
+
+cmd_dialogline	1/1/0/Emma/0.5/Do you think we should solve the case for these fools so we\n can get out of here?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/1/0/Tom/0.5/Don't really think we can.;
+cmd_wait;
+
+cmd_dialogline	1/1/0/Emma/0.5/Then we solve it from our seat. All the facts seem present to us.;
+cmd_wait;
+
+cmd_dialogline	0/1/0/Tom/0.5/Aren't we standing though?;
+cmd_wait;
+
+cmd_setsprite	1/2/24;
+cmd_pause	1;
+cmd_setcharidle_idx	1/4/24;
+cmd_dialogline	1/2/0/Emma/0.5/I think we don't have enough artists to draw seated sprites.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/2/...;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/Hey we could call it, in-desktigation!;
+cmd_wait;
+
+cmd_setsprite	1/0/24;
+cmd_pause	1;
+cmd_setcharidle_idx	1/5/24;
+cmd_dialogline	1/2/0/Emma/0.5/...Let's;
+cmd_pause_talk	2;
+
+cmd_dialogline	1/2/0/Emma/0.5/ not.;
+cmd_wait;
+
+cmd_shake	5/0.3;
+cmd_dialogline	1/1/0/Emma/0.5/C'mon Tom, take this seriously so I can go home and watch\n Cute Shark Girl : Rainbow;
+cmd_setcharidle_idx	1/0/24;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Heh?;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Emma/0.5/Of course, of course, we'll grab a snack on the way home. You happy?;
+cmd_setcharidle_idx	0/0/24;
+cmd_wait;
+
+cmd_dialogline	1/2/0/Tom/0.5/(I thought the first priority was finding out who killed our teacher?);
+cmd_wait;
+
+cmd_fade	0/0/1;
+cmd_pause	3;
+cmd_fade	1/0/1;
+cmd_setchar_active	0/1;
+cmd_setchar_active	1/1;
+cmd_pause	3;
+
+cmd_setcharidle_idx	1/2/24;
+cmd_dialogline	1/2/0/Emma/0.5/Alright, shutup and listen, Tom.;
+cmd_pause_talk	1;
+
+cmd_dialogline	1/2/0/Emma/0.5/It's time for us to take a look at some\n facts here. I've observed everything so far, so take some notes down.;
+cmd_wait;
+
+cmd_setsprite	1/2/24;
+cmd_event	2;
+
+end_script;

@@ -1,0 +1,45 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/0/24;
+cmd_setcharidle_idx	2/0/24;
+
+cmd_dialogline	0/0/0/Tom/0.5/Tell me about the fruits.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/I swear this has nothing to do with--;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/I agree. Not sayin that you are.;
+cmd_dialogline	0/0/0/Tom/0.5/ Just give me a quick explanation as to why\n you have these.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/5 days ago, I had a box delivered to my house, it was unmarked.\n I thought it was a mistake but then no one came to take it back.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/After a while, when we noticed that no one was coming to take it back,\n we opened It and found apricots  and peaches.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/We were happy for a bit, until we noticed that it was too much, and we\n could not finish them all before they were gonna get rotten.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/So we passed them around our neighborhood, our dad brought them to\n work, and I brought them to school to eat too.;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/Hmmm, seems a bit farfetched.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/This is the slip that was sent with the mail. Addressed to me, but didn't\n come with a sender.;
+cmd_wait;
+
+cmd_evidence	9;
+
+cmd_dialogline	1/0/0/Emma/0.5/That is so strange, to have sent you a billion pieces of fruit like that.\n It's almost like you were predicted to bring it here and be set up.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/Yes. My thoughts exactly.;
+cmd_wait;
+
+cmd_setsprite	2/0/24;
+cmd_event	10;
+
+end_script;

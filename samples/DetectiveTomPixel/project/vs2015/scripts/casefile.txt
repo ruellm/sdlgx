@@ -1,0 +1,15 @@
+cmd_dialogline	0/-1/0/Tom/0.5/Woah, what's this place....;
+cmd_wait;
+cmd_dialogline	1/-1/0/Emma/0.5/It's your mind.;
+cmd_wait;
+cmd_dialogline	0/-1/0/Tom/0.5/You can see my mind?!;
+cmd_wait;
+cmd_dialogline	1/-1/0/Emma/0.5/No, you dummy. It's a visual representation of what goes in your mind.;
+cmd_wait;
+cmd_dialogline	0/-1/0/Tom/0.5/Really? Looks really clean....It's like the developers have no idea how to\n represent me with the UI;
+cmd_wait;
+cmd_dialogline	1/-1/0/Emma/0.5/Tom, do you want people to hate our devs? Seems like you do.;
+cmd_wait;
+cmd_dialogline	0/-1/0/Tom/0.5/I'm sorry devs.;
+cmd_wait;
+end_script;

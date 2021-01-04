@@ -1,0 +1,78 @@
+cmd_setcharidle_idx	0/9/24;
+cmd_setcharidle_idx	1/15/24;
+cmd_setcharidle_idx	2/2/24;
+
+cmd_dialogline	0/10/0/Tom/0.5/The teacher...Didn't die as you would expect a cyanide victim would.;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/No, he didn't. In fact, he's been sick for almost 3 days now.;
+cmd_wait;
+
+cmd_dialogline	0/10/0/Tom/0.5/He collapsed on his desk, and never woke up. You're saying that's not what\n a cyanide poisoning would look like?;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/No, like I said, convulsion and basically...;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/It would be painful to see.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/15/24;
+cmd_dialogline	0/16/0/Tom/0.5/Okay then, if not Cyanide. What did it?;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/I'm really not sure. Probably a slow acting poison.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/7/24;
+cmd_dialogline	0/8/0/Tom/0.5/Or is that something you would say because you want us to not look at\n cyanide, and the fruits?;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/Lab tests will prove what killed him, for sure. I'm confident that I'm\n innocent.;
+cmd_wait;
+
+cmd_dialogline	2/3/0/Red/0.5/What bothers me the most is the fact that someone tried to pin this on me,\n and WHY?;
+cmd_wait;
+
+cmd_dialogline	0/8/0/Tom/0.5/Definitely easier to sell you as some unhinged student that got mad over\n a test, rather than some conspiracy plot to kill Mr. Ony.;
+cmd_wait;
+
+cmd_dialogline	1/16/0/Emma/0.5/I mean what did he even do really to deserve that much of meticulous\n type of killing?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/5/24;
+cmd_dialogline	0/6/0/Tom/0.5/Sounds delicous.;
+cmd_wait;
+
+cmd_dialogline	1/11/0/Emma/0.5/Meticulous means well thought out, something that you probably don't do.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/1/0/Emma/0.5/But seriously though, Tom. Are you satisfied?;
+cmd_wait;
+
+cmd_dialogline	0/16/0/Tom/0.5/No. There are some questions that need answering, but I don't suppose\n we can have that answer right now. Otherwise there is no need to\n investigate.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/15/24;
+cmd_dialogline	0/16/0/Tom/0.5/I think it's time to put this all together.;
+cmd_wait;
+
+cmd_dialogline	1/11/0/Emma/0.5/The solution will really come from which statements you believe.\n Either the initial clues are correct, or there's really something behind all\n these.;
+cmd_wait;
+
+cmd_dialogline	1/1/0/Emma/0.5/Remember Tom, everything's easier when you match everything together.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/10/24;
+cmd_dialogline	1/11/0/Emma/0.5/But if you don't understand WHY, then it's probably;
+cmd_wait;
+
+cmd_setcharidle_idx	0/9/24;
+cmd_dialogline	0/10/0/Tom/0.5/an incomplete theory. I understand, Emma. Don't worry. I'll think this\n through.;
+cmd_wait;
+
+cmd_setsprite	2/2/24;
+cmd_event	10;
+
+end_script;

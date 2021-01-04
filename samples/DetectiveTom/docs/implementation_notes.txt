@@ -1,0 +1,98 @@
+on cmd_wait trigger
+{
+	character(current).setidle()
+	{
+		if(-1) keep old index
+	}
+}
+
+when to reset?
+cmd_dialog->call to change sprite-->reset
+or
+call to
+setsprite() --> reset
+----------------------
+
+row 16, set during dialogline 9, well then... pause with animation stop
+		command list
+		dialogline 9, well then
+		setidle(); or setsprite to idle
+		cmd_pause;
+		do you think...
+		cmd_wait <-- cmd wait triggers stop or idle sprite
+		
+TODO: pause animation stop
+      pause animation continue
+      maybe a flag is ok _animation_paused, how to determine who will pause?
+      we need a current talker flag
+
+
+row 20, set dialog line with space, set timer to finish animation, 
+        then set dialog again, problem is, space will get appended.
+        maybe introduce a new command? 
+        setcharacter sprite 6, pause, dialog command 7, setidle
+	or
+	setidle 6, pause for seconds.
+        then how do we activate emma? setactivecharacter <-- new command
+
+row 23, same as row 20.
+
+row 32 no loop, setdialog command, 3. setidle 2, pause with animation, hold last frame (no loop sprite).
+	how do we set no loop sprite?
+	option 1, set sprite to no loop. specific ytn_l.png.
+	option 2, modify commands to pass no loop as parameter.
+
+row 33 hold last frame, same as row 20, setidle 2, pause with animation, set dialogcommand 3, set idle -1?
+        must support set idle -1, meaning no idle sprite, maintain old index.
+
+
+---------------------------------------------------------------------------------
+Modify fade/in/out of characters
+must centralize or uniform code
+
+bool _characters-fade-out[3];
+bool -characters_fade-int[3];
+
+declare GENERIC_FADEIN_STATE
+declare GENERIC_FADEOUT_STATE
+
+update()
+{
+   case generic fadeout_state
+   {
+          if(alpha > 255)
+	  {
+		NextStateProcessor( );
+	  }
+   }
+}
+
+NextStateProcessor()
+{
+  use next_state
+  process here...	
+}
+
+fade characters (bool inout, bool flag[3], int next_state)
+{
+	set state = GENERIC_FADE;
+        set flag = flag
+	set state = next_state;
+}
+
+----------------
+Pause
+1.event pause ->TALKSCREEN_STATE_PAUSE in talk screen (no reaction) 
+in Game screen because state is PRELUDE_DIAG_STATE_TYPING
+2. after iris transition - PRELUDE_DIAG_PAUSE_0 is called.
+3. PRELUDE_DIAG_PAUSE_0 - just pause and processnext command after
+
+   what is the difference between event pause and prelude diag pause? -- NOTHING
+   all of which resume process next command
+   so we can unified it.
+
+4. PRELUDE_DIAG_PAUSE is just a pause that proceed state to save state after.
+   example users: fade all characters, next state fade in tom & emma
+   or tom fade out, pause, then tom fade in.
+
+ALL Pause can be merged into one, same implementation as fade in/out characters.

@@ -1,0 +1,33 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/10/24;
+
+cmd_setsprite	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/To be honest, I rarely pay attention to this class. So I have no idea who\n the teacher is.;
+cmd_wait;
+
+cmd_setsprite	1/0/24;
+cmd_pause	0.5;
+cmd_dialogline	1/0/0/Emma/0.5/How did you even reach highschool?!;
+cmd_setcharidle_idx	1/-1/24;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/0/0/Emma/0.5/Meh, whatever. Listen up, that man is Ridge Ony. He's been teaching\n chemistry for 10 years.;
+cmd_wait;
+cmd_dialogline	1/0/0/Emma/0.5/Students say he's a good guy. His course plan sounds roughly easy, and\n none of us really get low marks. Except maybe...;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/Maybe?;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/You.;
+cmd_wait;
+cmd_dialogline	0/0/0/Tom/0.5/Ugh...(I knew she'd say that.);
+cmd_wait;
+
+cmd_evidence	0;
+
+cmd_event	2;
+
+end_script;

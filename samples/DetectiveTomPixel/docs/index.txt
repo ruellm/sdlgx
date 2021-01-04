@@ -1,0 +1,17 @@
+et1_i.png		0
+et1_m.png		1
+et2_i.png		2
+et2_m.png		3
+et3_i.png		4
+et3_m.png		5
+
+tt1_i.png		0
+tt1_m.png		1
+tt2_i.png		2
+tt2_m.png		3
+tt3_i.png		4
+tt3_m.png		5
+
+yrn1.png		0
+yrt1_i.png		1
+yrt1_m.png		2

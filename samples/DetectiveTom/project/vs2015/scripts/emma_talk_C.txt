@@ -1,0 +1,57 @@
+cmd_setcharidle_idx	0/15/24;
+cmd_setcharidle_idx	1/14/24;
+
+cmd_dialogline	0/16/0/Tom/0.5/About how this was executed...;
+cmd_wait;
+cmd_dialogline	0/16/0/Tom/0.5/How the heck did someone kill our teacher inside this room?;
+cmd_wait;
+cmd_dialogline	1/16/0/Emma/0.5/Let's see...From the looks of it,;
+
+cmd_setsprite	1/14/24;
+cmd_setcharidle_idx	1/15/24;
+cmd_pause_talk	0.5;
+cmd_dialogline	1/16/0/Emma/0.5/I think the teacher got poisoned.;
+cmd_wait;
+
+cmd_dialogline	0/16/0/Tom/0.5/Poisoned how?;
+cmd_wait;
+cmd_dialogline	1/16/0/Emma/0.5/I'm not exactly sure, but from the looks of it, he poisoned from his cup\n of coffee he was drinking.;
+cmd_wait;
+
+cmd_evidence	3;
+
+cmd_setcharidle_idx	0/9/24;
+cmd_dialogline	0/10/0/Tom/0.5/Is that how it was done? But how does that relate to Red being the culprit.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/10/24;
+cmd_dialogline	1/1/0/Emma/0.5/You saw it, didn't you? He stood there, talked to Mr. Ony, and sat back.\n;
+cmd_dialogline	1/11/0/Emma/0.5/ I'm not sure, but doesn't that implicate him?;
+cmd_wait;
+
+cmd_dialogline	0/8/0/Tom/0.5/I guess.;
+cmd_dialogline	0/10/0/Tom/0.5/ Which is why we're in this situation.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/7/24;
+cmd_dialogline	0/8/0/Tom/0.5/But what I don't understand is if he's the suspect, and they've caught him\n already, why aren't we let go.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/15/24;
+cmd_dialogline	1/16/0/Emma/0.5/Because they're not sure if he did it.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/9/24;
+cmd_dialogline	0/10/0/Tom/0.5/Then it could possibly be anyone here.;
+cmd_wait;
+
+cmd_setcharidle_idx	1/0/24;
+cmd_dialogline	1/1/0/Emma/0.5/Yes, that's possible.;
+cmd_wait;
+
+cmd_dialogline	0/8/0/Tom/0.5/Emma, I'm really hungry. Can we get this over with before I collapse?;
+cmd_wait;
+
+cmd_event	2;
+
+end_script;

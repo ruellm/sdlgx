@@ -1,0 +1,15 @@
+images/sprites/0/et1_i.png 1 0 24 5 1
+images/sprites/0/et1_m.png 1 1 24 4 1
+images/sprites/0/et2_i.png 1 2 24 5 1
+images/sprites/0/et2_m.png 1 3 24 4 1
+images/sprites/0/et3_i.png 1 4 24 5 1
+images/sprites/0/et3_m.png 1 5 24 4 1
+images/sprites/0/tt1_i.png 0 0 24 5 1
+images/sprites/0/tt1_m.png 0 1 24 4 1
+images/sprites/0/tt2_i.png 0 2 24 5 1
+images/sprites/0/tt2_m.png 0 3 24 4 1
+images/sprites/0/tt3_i.png 0 4 24 5 1
+images/sprites/0/tt3_m.png 0 5 24 4 1
+images/sprites/0/yrn1.png 2 0 24 3 1
+images/sprites/0/yrt1_i.png 2 1 24 5 1
+images/sprites/0/yrt1_m.png 2 2 24 4 1

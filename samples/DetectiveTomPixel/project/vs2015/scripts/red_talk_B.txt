@@ -1,0 +1,46 @@
+cmd_setcharidle_idx	0/0/24;
+cmd_setcharidle_idx	1/0/24;
+cmd_setcharidle_idx	2/0/24;
+
+cmd_dialogline	0/0/0/Tom/0.5/Cyandide. HCN. What is this, Red?;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/Basically, it's a chemical that ceases cellular activity. A dosage could\n kill in minutes.;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Guh....;
+cmd_dialogline	0/0/0/Tom/0.5/ Sounds like something I don't even want to be in the same room\n with.;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/What a freaky type of chemical.;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/Yes. Even I don't want to think of handling such a chemical.;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/How does ingesting a dosage effect a human?;
+cmd_wait;
+
+cmd_dialogline	2/0/0/Red/0.5/Good question. They inevitably spasm, and convulse, and foam from the\n mouth because they are losing control of their bodily functions almost\n instantly.;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/Wait...What happened to the teacher...;
+cmd_wait;
+
+cmd_dialogline	0/0/0/Tom/0.5/Yeah....I think...;
+cmd_pause_talk	0.5;
+cmd_dialogline	0/0/0/Tom/0.5/I think there maybe something going on here.;
+cmd_wait;
+
+cmd_dialogline	1/0/0/Emma/0.5/You think?;
+cmd_wait;
+
+cmd_setcharidle_idx	0/0/24;
+cmd_dialogline	0/0/0/Tom/0.5/It's a very strong hunch.;
+cmd_wait;
+
+cmd_setsprite	2/0/24;
+cmd_event	10;
+
+end_script;

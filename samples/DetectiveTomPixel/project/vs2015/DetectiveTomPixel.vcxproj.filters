@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0b06f64b-d1a3-4ce5-838d-14ad6704d0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{b7597e8e-2582-4060-96ff-67b9f3dcb1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{95b6ad95-353b-4361-bc3c-93ef03b1305d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{913ce54a-c65c-415e-a4eb-3a17efe1bb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{ab1ef6f8-9cf4-404b-a18a-5f40c729ba60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{973e89eb-1941-4dd1-a4e0-e21fba89f90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension">
+      <UniqueIdentifier>{b52b1c5a-80ba-4c2d-aee7-2fdc8a3b4648}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\DetectiveTom.cpp" />
+    <ClCompile Include="..\..\states\LoadingState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\states\MainMenuState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\GlowButton.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\states\GameState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\ScrollBar.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\ComboBox.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\SceneFader.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\PauseMenu.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\Popup.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\CaseFileScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\LogScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\ExitScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\SettingsScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\BoxScroll.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\states\PreludeDialogState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\states\TalkScreenBase.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\FileDialogParser.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utility\StringHelpers.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\Character.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\EmmaTalkScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\IconBox.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\Evidence.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\GameData.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\TomTalkScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\AppricotPeachesComic.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene\RedTalkScreen.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extension\SpriteExtension.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utility\utility.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\RectTextButton.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\LoadingState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MainMenuState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\definitions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GlowButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GameState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ScrollBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ComboBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SceneFader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PauseMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Popup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CaseFileScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\LogScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ExitScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SettingsScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\BoxScroll.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Commands.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TalkScreenBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PreludeDialogState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\FileDialogParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Utility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Character.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EmmaTalkScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IconBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Evidence.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CustomEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GameData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TomTalkScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AppricotPeachesComic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RedTalkScreen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SpriteExtension.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RectTextButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
